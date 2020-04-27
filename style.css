@@ -1,0 +1,253 @@
+img
+{
+    width: 100%;
+}
+
+*
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+/* -----------HEADER----------- */
+header .bar
+{
+    background-color: #288382;
+}
+
+header .bar nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .bar nav figure
+{
+    width: 5%;
+    background-color: #fff;
+    display: inline-block;
+}
+
+header .bar nav figure img
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+header .bar nav .menu
+{
+    margin: 0 5%;
+}
+
+header .bar nav .menu a
+{
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin: 10px 25px;
+}
+
+header .bar nav a:hover
+{
+    text-decoration: underline;
+}
+
+header .presentation
+{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #286D83;
+}
+
+header .presentation .title
+{
+    color: #fff;
+    width: 55%;
+    text-align: center;
+    padding: 20px;
+}
+
+header .presentation .title h1
+{
+    font-size: 65px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+header .presentation .title p
+{
+    font-size: 40x;
+}
+
+header .presentation .divition
+{
+    color: #000;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+header .presentation figure
+{
+    width: 45%;
+    background-color: #fff;
+    display: block;
+}
+
+header .presentation figure img
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+main
+{
+    background-color: #ebebeb;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main h2
+{
+    color: #832829;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+main div 
+{
+    width: 90%;
+    margin: 50px auto;
+}
+
+main div section
+{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main div section article 
+{
+    width: 30%;
+    padding: 20px;
+}
+
+main div section article .titulo
+{
+    margin-bottom: 10px;
+}
+
+main div section article .titulo h3
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+main div section article .titulo p
+{
+    text-align: center;
+    font-size: 14px;
+    color: #424242;
+}
+
+main div section article figure
+{
+    width: 100%;
+}
+
+main div section article figure img
+{
+    vertical-align: top;
+    width: 100%;
+}
+
+main div section article nav 
+{
+    background-color: #282983;
+    display: flex;
+    justify-content: space-around;
+}
+
+main div section article nav a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+main div section article nav a:hover
+{
+    background-color: #1f2068;
+}
+
+footer
+{
+    background-color: #0A1B21;
+    color: #fff;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+footer form
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+footer form label
+{
+    font-size: 25px;
+}
+
+footer form input[type="email"]
+{
+    display: block;
+    width: 50%;
+    margin: 15px auto;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 15px 10px;
+}
+
+footer .more-information
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+footer .more-information figure 
+{
+    width: 35%;
+    margin: 0 auto;
+}
+
+footer .more-information figure img
+{
+    width: 100%;
+    vertical-align: top;
+}
